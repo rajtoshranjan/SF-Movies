@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata");
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.search-box {
+  position: fixed;
+  z-index: 999;
+}
+.card {
+  padding: 10px;
+  margin: 10px;
+  background-color: #edeedc;
+  border-radius: 3px;
+}
+
+.search-box-card h1 {
+  color: #212121;
+}
+
+form {
+  outline: 0;
+  float: left;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+form > .textbox {
+  outline: 0;
+  height: 33px;
+  width: 244px;
+  line-height: 33px;
+  padding: 0 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #212121;
+  border: 0;
+  float: left;
+  -webkit-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+form > .textbox:focus {
+  outline: 0;
+  background-color: #fff;
+}
+
+form > .button {
+  outline: 0;
+  background: none;
+  background-color: rgba(38, 50, 56, 0.8);
+  float: left;
+  height: 33px;
+  width: 33px;
+  text-align: center;
+  line-height: 33px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+  -webkit-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+form > .button:hover {
+  background-color: rgba(43, 46, 4, 0.8);
+}
+
+.loader-back {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: #000000;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid brown; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  top: 40%;
+  left: 50%;
+  opacity: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+p {
+  font-family: "Consolas", "Inconsolata";
+}
+
+p b {
+  color: brown;
+}
