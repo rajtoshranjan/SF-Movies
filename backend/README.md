@@ -1,2 +1,2 @@
-### Run Project by
+### Run Project
 	python manage.py runserver
