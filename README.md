@@ -22,19 +22,19 @@ The data is available on <a href="https://data.sfgov.org/Culture-and-Recreation/
 
 #### For Backend
 
-- Django Web Framework
+- Django Web Framework :
   I used Django because of its ORM(Object Relational Mapper) and build in admin ui.
 - Python Programming Language
-- Django Rest Framework
-  It makes serialization(converting querysets to Dict or JSON) very easy easy
-- SQLite3 Database
+- Django Rest Framework :
+  It makes serialization(converting querysets to Dict or JSON) very easy.
+- SQLite3 Database :
   Light weight, Server less database
 
 #### For Frontend
 
-- React Js
+- React Js :
   Fast, Scalable, and Simple JavaScript Library
-- react-google-maps library
+- react-google-maps library :
   library for display map and marker in react js application
 - Java Script
 - HTML5
@@ -42,5 +42,11 @@ The data is available on <a href="https://data.sfgov.org/Culture-and-Recreation/
 
 ## Access the Application
 
-<a href="https://sfmovies.pythonanywhere.com/">Backend</a>
-<a href="https://sfmovies2.web.app/">Fronend</a>
+- <a href="https://sfmovies.pythonanywhere.com/">Backend</a>
+- <a href="https://sfmovies2.web.app/">Fronend</a>
+- <a href="https://www.linkedin.com/in/rajtosh-ranjan-335ab1179/">My LinkedIn Profile</a>
+
+## What i can do in future updates
+
+When i shated working on this project Google Maps Api comes in mind for showing map, but google wants a billing account for the production api thats why i used development api in this project. In future i will replace the google map with openstreet map(A free to use map).
+And also i will inprove the Design of the website
