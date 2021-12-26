@@ -1,7 +1,7 @@
 # SF Movies
 
 SF Movies is a full stack web application which shows the shooting location of a movie in San Francisco.
-I used data from <a href="https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am">DataSF: Film Locations.</a>
+I used data from <a target="_blank" href="https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am">DataSF: Film Locations.</a>
 
 #### this application Includes
 
@@ -16,7 +16,7 @@ I used data from <a href="https://data.sfgov.org/Culture-and-Recreation/Film-Loc
 Create a service that shows on a map where movies have been filmed in San
 Francisco. The user should be able to filter the view using autocompletion
 search.
-The data is available on <a href="https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am">DataSF: Film Locations.</a>
+The data is available on <a target="_blank" href="https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am">DataSF: Film Locations.</a>
 
 ## Technology Used
 
@@ -42,9 +42,9 @@ The data is available on <a href="https://data.sfgov.org/Culture-and-Recreation/
 
 ## Access the Application
 
-- <a href="https://sfmovies.pythonanywhere.com/">Backend</a>
-- <a href="https://sfmovies2.web.app/">Fronend</a>
-- <a href="https://www.linkedin.com/in/rajtosh-ranjan-335ab1179/">My LinkedIn Profile</a>
+- <a target="_blank" href="https://sfmovies.pythonanywhere.com/">Backend</a>
+- <a target="_blank" href="https://sfmovies2.web.app/">Fronend</a>
+- <a target="_blank" href="https://www.linkedin.com/in/rajtosh-ranjan-335ab1179/">My LinkedIn Profile</a>
 
 ## What i can do in future updates
 
