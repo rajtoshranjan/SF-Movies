@@ -49,4 +49,4 @@ The data is available on <a target="_blank" href="https://data.sfgov.org/Culture
 ## What i can do in future updates
 
 When i shated working on this project Google Maps Api comes in mind for showing map, but google wants a billing account for the production api thats why i used development api in this project. In future i will replace the google map with openstreet map(A free to use map).
-And also i will inprove the Design of the website
+And also i will improve the Design of the website
