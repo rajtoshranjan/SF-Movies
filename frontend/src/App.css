@@ -116,3 +116,9 @@ p {
 p b {
   color: brown;
 }
+
+@media(max-width: 500px){
+  .search-box{
+    margin-top: 25px;
+  }
+}
